@@ -1,0 +1,112 @@
+html {
+    height: 100%;
+}
+
+body#index {
+    position: relative; 
+    height: 100%; 
+    width: 100%; 
+    padding-top: 0; 
+    background-image: url("../images/full-bloom.png");
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: auto;
+}
+
+div.container{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    max-width: 60rem;
+    margin: auto;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-white {
+    padding: 0;
+}
+
+div.container-fluid {
+    padding: 0;
+}
+
+div.card {
+    max-width: 58rem;
+    margin: auto;
+}
+
+img.float-left.pr-2 {
+    max-width: 100%;
+    height: auto; 
+    max-height: 220px;
+}
+
+h2.card-title {
+    color: #4aaaa5;
+    border-bottom: 3px solid grey
+}
+
+div.push {
+    height: 60px;
+}
+
+footer.container-fluid.text-center.bg-secondary.text-white-50 {
+    clear: both;
+    border-top: 5px solid #4aaaa5;
+}
+
+div.wrapper {
+    min-height: 100%;
+    margin-bottom: -60px;
+}
+
+a.navbar-brand.text-white.p-3 {
+    background-color: #4aaaa5
+}
+
+
+button.btn.btn-info {
+    background-color: #4aaaa5;
+}
+
+#hangman-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+
+#rpggame-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+#triviagame-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+#rutgersinfowidget-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
+
+#rockpaperscissors-text {
+    position: absolute;
+    bottom: 10px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    width: 250px;
+}
